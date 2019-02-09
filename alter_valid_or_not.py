@@ -7,7 +7,9 @@ for x,y in freq.items():
     if(y>maxer):
         maxer = y
         ltr = x
-if(y>= (len(s)//2)):
+if(len(s) == 1):
+    print("yes")
+elif(y>= (len(s)//2)):
     print("no")
 else:
     print("yes")
