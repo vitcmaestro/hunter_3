@@ -9,7 +9,7 @@ for x,y in freq.items():
         ltr = x
 if(len(s) == 1):
     print("yes")
-elif(y>= (len(s)//2)):
+elif(y> (len(s)//2)):
     print("no")
 else:
     print("yes")
