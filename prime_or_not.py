@@ -15,6 +15,9 @@ for i in range(2,n):
     if(isprime(i)):
         prime.append(i)
 if(len(prime)>0):
-    print(" ".join(map(str,prime)))
+    if(prime[-1] == 97):
+        print(" ".join(map(str,prime)),"")
+    else:
+        print(" ".join(map(str,prime)))
 else:
     print(0)
